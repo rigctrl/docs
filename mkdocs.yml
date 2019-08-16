@@ -1,0 +1,14 @@
+site_name: RigCtrl Documentation
+
+theme:
+    name: "material"
+    palette:
+        primary: 'red'
+        accent: 'blue'
+    logo: "img/favicon/favicon-128.png"
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    # - def_list
