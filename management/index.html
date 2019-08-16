@@ -1,0 +1,519 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Management - RigCtrl Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ef5350">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="red" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#managing-groups-for-installing-and-configuring-claymore" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="RigCtrl Documentation" class="md-header-nav__button md-logo">
+          
+            <img src="../img/favicon/favicon-128.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RigCtrl Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Management
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="RigCtrl Documentation" class="md-nav__button md-logo">
+      
+        <img src="../img/favicon/favicon-128.png" width="48" height="48">
+      
+    </a>
+    RigCtrl Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Management
+      </label>
+    
+    <a href="./" title="Management" class="md-nav__link md-nav__link--active">
+      Management
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#managing-groups-for-installing-and-configuring-claymore" title="Managing groups for installing and configuring Claymore" class="md-nav__link">
+    Managing groups for installing and configuring Claymore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-rigs" title="Managing rigs" class="md-nav__link">
+    Managing rigs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-and-configuring-claymore" title="Installing and configuring Claymore" class="md-nav__link">
+    Installing and configuring Claymore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-rigs-from-the-home-page" title="Managing rigs from the home page" class="md-nav__link">
+    Managing rigs from the home page
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../rigctrl-reset/" title="Rigctrl reset" class="md-nav__link">
+      Rigctrl reset
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#managing-groups-for-installing-and-configuring-claymore" title="Managing groups for installing and configuring Claymore" class="md-nav__link">
+    Managing groups for installing and configuring Claymore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-rigs" title="Managing rigs" class="md-nav__link">
+    Managing rigs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-and-configuring-claymore" title="Installing and configuring Claymore" class="md-nav__link">
+    Installing and configuring Claymore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-rigs-from-the-home-page" title="Managing rigs from the home page" class="md-nav__link">
+    Managing rigs from the home page
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Management</h1>
+                
+                <h3 id="managing-groups-for-installing-and-configuring-claymore">Managing groups for installing and configuring Claymore<a class="headerlink" href="#managing-groups-for-installing-and-configuring-claymore" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p>RigCtrl Claymore operations are available only if Windows configuration guide is completed</p>
+</div>
+<p>Usually the rigs share together most of the Claymore parameters like wallet, fan speed settings, pool, etc. You want to keeps those commong parameters in a group and use it in all or a group of rigs.</p>
+<p><em>RigCtrl has a default <code>global</code> group with predefined Claymore parameters that rigs will initially use</em></p>
+<p>To add a group click on +</p>
+<ol>
+<li>
+<p>Enter group name</p>
+<div class="admonition info">
+<p class="admonition-title">Example</p>
+<p>Name could be a group for rigs with same cards <code>RX580-8GB</code> or <code>RX570-4GBSapphire</code></p>
+</div>
+</li>
+<li>
+<p>Enter wallet only if it's different from the wallet in gray (wallet in Configuration) or you want a group that will mine for another wallet</p>
+</li>
+<li>
+<p>In Claymore command enter the complete command (except wallet). Refer to <strong><a href="https://www.rigctrl.com/dl/readme.txt?target=_blank">Claymore documentation</a></strong> for available options.</p>
+</li>
+</ol>
+<div class="admonition info">
+<p>Default RigCtrl global command is <code>-epool eu1.ethermine.org:4444 -cvddc 900 -cclock 1150 -mclock 2000 -tstop 85 -tt 60 -fanmin 35 -fanmax 100 -r -1 -mport 3333</code></p>
+</div>
+<p>If a rig has different mclock, cclock or cvddc than other rigs in the same group, they can be entered and overriden by entering those in the rig list.</p>
+<p>If a rig needs different commands other than overclocking then create a new group for that rig.</p>
+<h3 id="managing-rigs">Managing rigs<a class="headerlink" href="#managing-rigs" title="Permanent link">&para;</a></h3>
+<ol>
+<li>To manage rigs click on Rig/Group list from the menu</li>
+<li>Add a rig by clicking on <strong>+</strong> or remove a rig with <strong>X</strong></li>
+<li>Change rig name for easier identification</li>
+<li>
+<p>Enter or adjust Min hashrate</p>
+<div class="admonition attention">
+<p>Minimal hashrate is the lower boundary where if rig drops below that hashrate RigCtrl acts and restarts Claymore, Windows or perform a reset to bring the rig to optimal hashrate.</p>
+<p>It is important to enter correct min hashrate to have RigCtrl help you the best way.</p>
+</div>
+</li>
+<li>
+<p>Select reset Port where rig is connected to. If a rig doesn't have assigned port it is not possible to hard reset, power off or power on.</p>
+</li>
+<li>Select appropriate group</li>
+<li>Monitoring<ul>
+<li>If a rig has Monitor selected, RigCtrl will monitor the rig and automatically peform actions like Claymore/Windows restart or hard reset.</li>
+<li>Uncheck monitoring if you don't want RigCtrl to take actions on a  rig.</li>
+<li>Monitoring can be turned on or off from the home page as well.</li>
+<li>Regardless of monitoring, manual actions can be pefromed from the home page.</li>
+</ul>
+</li>
+</ol>
+<h3 id="installing-and-configuring-claymore">Installing and configuring Claymore<a class="headerlink" href="#installing-and-configuring-claymore" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Enter <code>cvddc</code>, <code>mclock</code> and/or <code>cclock</code> that are specific to a rig in respecive fields in the list</p>
+<div class="admonition info">
+<p class="admonition-title">Example</p>
+<p>A rig has different GPUs and require different clocks than in group. We enter the following:</p>
+<p>cvddc: 950</p>
+<p>cclock: 1150,1150,1130,1120,1140,1050</p>
+<p>mclock: 2050,2050,2000,1900,2040,2050</p>
+</div>
+<div class="admonition attention">
+<p>The final Claymore command will be the group's commands except the clocks entered in the rig.</p>
+</div>
+</li>
+<li>
+<p>Click on green play button to install or update Claymore</p>
+<ul>
+<li>This action installs/updates, combines group parameters with rig's clock, configures Claymore and puts Claymore in Windows startup</li>
+<li>Claymore version is always the latest</li>
+</ul>
+</li>
+<li>Click on refresh button to send new Claymore configuration if any of the global or rig parameters are changed.<ul>
+<li>This action only changes the Claymore command</li>
+</ul>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Save the changes before executing any of the actions</p>
+</div>
+<h3 id="managing-rigs-from-the-home-page">Managing rigs from the home page<a class="headerlink" href="#managing-rigs-from-the-home-page" title="Permanent link">&para;</a></h3>
+<p>On home page every rig has its own menu where you can manage and take different actions</p>
+<ul>
+<li>
+<p>Click on three vertical dots to open rig menu</p>
+<ul>
+<li>Edit Rig - From this dialog you can change rig information, claymore configuration and perform various actions</li>
+<li>Teamviewer ID - appears only if Teamviewer is installed on rig (click to copy ID)</li>
+<li>Restart Claymore</li>
+<li>Monitor On/Off</li>
+<li>Windows Restart</li>
+<li>Windows Shutdown</li>
+</ul>
+<p><em>The commands below are ony available if a rig is connected to a RigCtrl Reset device and has a port assigned</em>
+- Reset
+- Power off
+- Power on</p>
+</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../installation/" title="Installation" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Installation
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../rigctrl-reset/" title="Rigctrl reset" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Rigctrl reset
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.245445c6.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
