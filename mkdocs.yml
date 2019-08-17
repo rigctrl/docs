@@ -1,14 +1,45 @@
 site_name: RigCtrl Documentation
 
+pages:
+    - English:
+        - Home: index.md
+        - Installation: installation.md
+        - Management: management.md
+        - RigCtrl Reset: rigctrl-reset.md
+    - Shqip:
+        - Home: sq/index.md
+        - Instalimi i paisjes: sq/installation.md
+        - Menaxhimi i Rig-ave: sq/management.md
+        - RigCtrl Reset: sq/rigctrl-reset.md
+
 theme:
     name: "material"
     palette:
         primary: 'red'
         accent: 'blue'
+    feature:
+        tabs: true
     logo: "img/favicon/favicon-128.png"
+
+extra:
+    social:
+        - type: 'github'
+          link: 'https://github.com/rigctrl/docs'
+        - type: 'facebook'
+          link: 'https://facebook.com/rigctrl'
+        - type: 'instagram'
+          link: 'https://instagram.com/rigctrl'
+
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
 
 markdown_extensions:
     - toc:
         permalink: true
     - admonition
     # - def_list
+
+repo_name: 'rigctrl/docs'
+repo_url: 'https://github.com/rigctrl/docs'
+copyright: 'Copyright &copy; 2017 - 2019 RigCtrl'
