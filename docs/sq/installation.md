@@ -47,7 +47,7 @@ _Që RigCtrl të mund të instaloj dhe konfiguroj Claymore, ndryshoj kuletat, ri
 ### Konfigurimin i Claymore
 
 !!! note ""
-    Nëse keni përfunduar [konfigurimin e Windows](/sq/installation#konfigurimin-i-windows) dhe keni instaluar Claymore nëpërmjet RigCtrl, atëhere mund të tejkaloni këtë pjesë.
+    Nëse keni përfunduar [konfigurimin e Windows](/sq/installation/#konfigurimin-i-windows) dhe keni instaluar Claymore nëpërmjet RigCtrl, atëhere mund të tejkaloni këtë pjesë.
 
 Në mënyrë që RigCtrl të kryej veprimet automatike, Claymore duhet të konfigurohet me këto parametra:
 

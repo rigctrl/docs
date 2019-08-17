@@ -48,7 +48,7 @@ _In order for RigCtrl to be able to install and configure Claymore, change walle
 ### Claymore configuration
 
 !!! note ""
-    If you have completed [Windows Configuration](/installation#windows-configuration) and have installed Claymore via RigCtrl, then you can skip this section.
+    If you have completed [Windows Configuration](/installation/#windows-configuration) and have installed Claymore via RigCtrl, then you can skip this section.
 
 To allow RigCtrl to perform action, Claymore needs to be configured with the following parameters:
 
